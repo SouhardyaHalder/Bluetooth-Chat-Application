@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Android Bluetooth Chat Application</string>
+    <string name="scan_devices">Scanning devices</string>
+    <string name="host">Server</string>
+    <string name="client">Client</string>
+    <string name="scan">Scan</string>
+    <string name="textview">TextView</string>
+    <string name="enable_discoverability">Enable discoverability</string>
+    <string name="user_info">Please wait while the device is connected.\n\nIf device is not visible to the HOST, please Enable Discoverability.</string>
+    <string name="status_active_neutral">Status: Active|Neutral</string>
+    <string name="clear_chat">Clear chat</string>
+    <string name="about">About Us</string>
+    <string name="no_devices_found">No devices found</string>
+    <string name="target_matrix">Ardent</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="enter_message">Type message here</string>
+    <string name="send">Send</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.bluetoothmessengerdemo">
+
+    <uses-feature android:name="android.hardware.bluetooth" />
+    <uses-feature android:name="android.software.companion_device_setup" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BluetoothChat">
+        <activity
+            android:name="com.example.bluetoothmessengerdemo.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bluetoothmessengerdemo.GetBoundedDevices"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bluetoothmessengerdemo.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bluetoothmessengerdemo.FuncManager"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bluetoothmessengerdemo.DeviceActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bluetoothmessengerdemo.Toasts"
+            android:exported="true" />
+        <activity
+            android:name="com.example.bluetoothmessengerdemo.MainActivity2"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.bluetoothmessengerdemo.SplashScreenActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bluetoothmessengerdemo.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
